@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IMDb Sentiment Analysis</title>
+</head>
+<body>
+    <h1>IMDb Movie Review Sentiment Analysis</h1>
+    <form method="POST">
+        <textarea name="review" rows="6" cols="60" placeholder="Enter movie review here..."></textarea><br><br>
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Prediction: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>

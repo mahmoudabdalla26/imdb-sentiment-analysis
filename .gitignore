@@ -1,0 +1,3 @@
+imdb-sentiment-rnn-env/
+*.pyc
+__pycache__/

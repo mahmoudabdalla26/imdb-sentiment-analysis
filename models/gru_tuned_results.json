@@ -1,0 +1,9 @@
+{
+    "model": "GRU Tuned",
+    "best_hyperparameters": {
+        "gru_units": 64,
+        "dropout_rate": 0.30000000000000004,
+        "learning_rate": 0.001
+    },
+    "validation_accuracy": 0.878693163394928
+}
